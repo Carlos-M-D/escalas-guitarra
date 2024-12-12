@@ -1,0 +1,95 @@
+#+TITLE: Escalas para guitarra
+#+AUTHOR: Carlos Martínez
+#+LANGUAGE: es
+#+OPTIONS: num:nil author:nil
+
+* Resumen
+Este repositorio contiene escalas para las clases de guitarra. Están escritas en el programa de tipografía musical ~LilyPond~[fn:1:[[https://lilypond.org/]]] con la intención de que sirvan como ejemplos y sean compiladas e incluidas en un documento que las agrupe según la etapa.
+* Secuenciación
+La secuenciación propuesta es la que se establece en la programación didáctica 2024-2025 del Departamento de Guitarra, Percusión y Música Moderna del Conservatorio Profesional de Música de Valencia[fn:2:[[https://portal.edu.gva.es/cpmvalencia/es/inicio/]]].
+** Enseñanzas Elementales
+#+begin_src
+
+Primer curso
+.. Do mayor
+.. Mi frigio
+
+Segundo curso
+.. La menor
+..... Natural
+..... Armónica
+..... Melódica
+.. Sol cromática
+.. Sol mayor
+.. Re mayor
+
+Tercer curso
+.. Do mayor
+.. Mi menor
+..... Natural
+..... Armónica
+..... Melódica
+.. Re menor
+..... Natural
+..... Armónica
+..... Melódica
+.. La menor
+..... Natural
+..... Armónica
+..... Melódica
+
+Cuarto curso
+.. Do mayor
+.. Re mayor
+.. La mayor
+.. Si menor
+..... Natural
+..... Armónica
+..... Melódica
+
+#+end_src
+** Enseñanzas Profesionales
+#+begin_src
+
+Primer curso
+.. Sol mayor
+.. Re mayor
+.. Mi mayor
+.. La menor
+..... Natural
+..... Armónica
+..... Melódica
+
+Segundo curso
+.. Fa mayor
+.. La mayor
+.. Pentatónica menor de la
+.. Mi menor
+..... Natural
+..... Armónica
+..... Melódica
+
+Tercer curso
+.. Mi mayor
+.. Si bemol mayor
+.. Sol menor
+..... Natural
+..... Armónica
+..... Melódica
+.. Si menor
+..... Natural
+..... Armónica
+..... Melódica
+
+Cuarto curso
+.. Mi mayor
+.. Mi bemol mayor
+.. Do menor
+..... Natural
+..... Armónica
+..... Melódica
+#+end_src
+* Licencia
+Los responsables de la secuenciación son los miembros del Departamento de Guitarra, Percusión y Música Moderna del Conservatorio Profesional de Música de Valencia.
+
+El código se distribuye con licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International[fn:3:[[https://creativecommons.org/licenses/by-nc-sa/4.0/]]].
