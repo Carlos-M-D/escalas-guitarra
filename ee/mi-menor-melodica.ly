@@ -1,0 +1,36 @@
+% Tercer curso EE. EE.
+% Segundo curso EE. PP.
+\version "2.25.20"
+\language "english"
+\paper {
+page-breaking = #ly:one-page-breaking
+% line-width = 4\in %experiment with amount
+ragged-right = ##f
+indent = 0
+}
+\header {
+  tagline = ""  % removed
+}
+\layout {
+    #(layout-set-staff-size 40)
+    \context {
+    \Score
+    \omit BarNumber}
+
+\context {
+    \Score
+    \omit BarNumber}
+    }
+\score{
+  % \remove "Bar_number_engraver"
+  \new Staff
+  \with {
+    \omit TimeSignature
+    \omit Stem
+
+    % or:
+    %\remove "Time_signature_engraver"
+  }\relative
+  {  \omit Staff.BarLine \omit BarNumber \key e \minor
+e fs g a b cs ds e fs g a b cs ds e d! c! b a g fs e d! c! b a g fs e  \revert Staff.BarLine.stencil \bar "|." }
+}
